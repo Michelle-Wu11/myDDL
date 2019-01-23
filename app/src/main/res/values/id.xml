@@ -1,0 +1,4 @@
+<resources>
+        <id name="login_user">username</id>
+        <id name="login_password">logpwd</id>
+</resources>

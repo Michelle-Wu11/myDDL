@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e6e6">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/clockdoc"/>
+
+    <EditText
+        android:id="@+id/LoginName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/edittextstyle"
+        android:hint="@string/Login_Name_hint"
+        />
+    <EditText
+        android:id="@+id/LoginPwd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="@string/Login_Password_hint"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:background="@drawable/edittextstyle"
+        />
+    <Button
+        android:id="@+id/btn_Login_Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Text_btn_login"
+        android:background="#1fbaf3"
+        android:textColor="#fff"
+        />
+    <TextView android:layout_weight="3"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/tv_new_user"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:text="@string/Text_New_User"
+        android:textColor="#01aeef"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+
+
+
+</LinearLayout>

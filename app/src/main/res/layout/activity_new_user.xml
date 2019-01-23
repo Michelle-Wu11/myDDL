@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e6e6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/clockdoc"/>
+
+    <EditText
+        android:id="@+id/NewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/edittextstyle"
+        android:hint="@string/New_User_Name"
+        />
+    <EditText
+        android:id="@+id/NewUserPwd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="@string/New_User_Password"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextstyle"
+        />
+    <EditText
+        android:id="@+id/NewUserPwd_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="@string/New_User_Password_Confirm"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextstyle"
+        />
+    <Button
+        android:id="@+id/btn_NewUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Text_New_User"
+        android:background="#1fbaf3"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center|bottom"
+
+        android:textColor="#01aeef"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+
+
+
+</LinearLayout>
